@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج تسجيل</title>
+</head>
+<body>
+    
+
+
+    <h2>نموذج التسجيل</h2>
+    
+    
+<fieldset>
+<form action="/submit_form" method="POST">
+        
+        
+<label for="nom">الاسم:</label><br>
+        
+<input type="text" id="nom" name="nom" required><br><br>
+        
+<label for="prenom">اللقب:</label><br>
+        
+  
+<input type="text" id="prenom" name="prenom" required><br><br>
+        
+<label for="email">البريد الإلكتروني:</label><br>
+ 
+<input type="email" id="email" name="email" required><br><br>
+
+<label for="العنوان ">العنوان :</label><br>
+<input name="العنوان " id="العنوان " type="text"><br><br>
+
+ <label for="الولاية">الولاية:</label><br>
+ <select name="الولاية">
+<option > بنزرت</option>
+<option>كاف</option>
+<option> المنستير</option>
+<option> نابل</option>
+<option>ة تونس</option>
+<option> توزر</option>
+ </select><br><br>
+ 
+<label for="بطاقة  التعريف ">بطاقة  التعريف </label><br>
+<input id="v" type="number"><br><br>
+
+<label for="phone">رقم الهاتف:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+<label for="password">كلمة المرور:</label><br>
+        
+<input type="password" id="password" name="password" required><br><br>
+    
+<label for="gender">الجنس:</label><br>
+     
+<input type="radio" id="male" name="gender" value="male">
+          
+<label for="male">ذكر</label><br>
+         
+<input type="radio" id="female" name="gender" value="female">
+  
+<label for="female">أنثى</label><br><br>
+     
+<label for="birthdate">تاريخ الميلاد:</label><br>
+        
+       
+<input type="date" id="birthdate" name="birthdate"><br><br>
+<label>يلاحظ:</label><br>
+<input id="am" type="text"><br><br>
+<label>العدد:</label><br>
+<select>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+</select><br><br>
+<input type="submit" value="إرسال">
+</fieldset>
+    </form>
+
+</body>
+
+
+</html>
